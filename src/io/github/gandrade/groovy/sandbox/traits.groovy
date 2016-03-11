@@ -7,7 +7,7 @@ trait SpeakingDuck {
 }
 
 class Duck implements SpeakingDuck {
-	String methodMissing2(String name, args) {
+	String methodMissing(String name, args) {
 		"${name.capitalize()}!"
 	}
 }
